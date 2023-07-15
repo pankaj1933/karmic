@@ -38,10 +38,10 @@ const MyNav = () => {
 
                     <h3 className='position-relative z-3 d-lg-none' onClick={first ? shownav : hidenav}>  {first ? <RxHamburgerMenu/> : <RxCross1 />}  </h3>
                     <ul className={first ? 'd-flex gap-5 nav_bar pt-2' : "d-flex gap-5 nav_bar pt-2 show"} >
-                        <li><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower' >Home</Link></li>
-                        <li><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower'>Services</Link></li>
-                        <li><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower'>Projects</Link></li>
-                        <li><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower'>About</Link></li>
+                        <li className='pt-2'><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower' >Home</Link></li>
+                        <li className='pt-2'><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower'>Services</Link></li>
+                        <li className='pt-2'><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower'>Projects</Link></li>
+                        <li className='pt-2'><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower'>About</Link></li>
                         <Link className='fs_sm clr_secondary wallet_btn font-weight-bold ff_sunflower'>Connect Wallet</Link>
 
                     </ul>
