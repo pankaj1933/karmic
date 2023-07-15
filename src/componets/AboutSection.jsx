@@ -41,10 +41,10 @@ const AboutSection = () => {
                </div>
 
                 <div className="d-flex justify-content-center gap-3">
-                    <img src={insta} alt="#" />
-                    <img src={twitter} alt="#" />
-                    <img src={facebook} alt="#" />
-                    <img src={youtube} alt="#" />
+                    <img className='media_hover' src={insta} alt="#" />
+                    <img className='media_hover' src={twitter} alt="#" />
+                    <img className='media_hover' src={facebook} alt="#" />
+                    <img className='media_hover' src={youtube} alt="#" />
                 </div>
             </Container>
             <p className='ff_space fs_sm fw-normal clr_primary d-flex justify-content-center pt-5 mt-5 footer_upperline'>© Karmic labs 2022</p>

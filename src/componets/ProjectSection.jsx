@@ -18,7 +18,7 @@ const ProjectSection = () => {
             <Container className=' mt-5 pt-5'>
                 <h2 className='d-flex justify-content-center clr_primary fs_lg fw-light ff_sunflower upcoming_top_bottomline'>UPCOMING PROJECTS </h2>
                 <Row className='pt-5'>
-                    <Col lg={3} md={6}data-aos="flip-down"><div className='project_boxes flex-column d-flex'>
+                    <Col lg={3} md={6}data-aos="flip-down"><div className='project_boxes flex-column d-flex mt-3 mt-lg-0'>
                         <img src={project1} alt="" />
                         <div className="d-flex justify-content-between align-items-center pt-2 ">
 
@@ -28,7 +28,7 @@ const ProjectSection = () => {
                         </div>
                         <p className='clr_primary ff_space fw-light fs_sm '>NFT</p>
                     </div></Col>
-                    <Col lg={3} md={6} data-aos="flip-down"><div className='project_boxes flex-column d-flex'>
+                    <Col lg={3} md={6} data-aos="flip-down"><div className='project_boxes flex-column d-flex mt-3 mt-lg-0'>
                         <img src={project2} alt="" />
                         <div className="d-flex justify-content-between align-items-center pt-2 ">
 
@@ -37,7 +37,7 @@ const ProjectSection = () => {
                         </div>
                         <p className='clr_primary ff_space fw-light fs_sm '>NFT</p>
                     </div></Col>
-                    <Col lg={3} md={6} data-aos="flip-down"><div className='project_boxes flex-column d-flex'>
+                    <Col lg={3} md={6} data-aos="flip-down"><div className='project_boxes flex-column d-flex mt-3 mt-lg-0'>
                         <img src={project3} alt="" />
                         <div className="d-flex justify-content-between align-items-center pt-2 ">
 
@@ -48,7 +48,7 @@ const ProjectSection = () => {
                         <p className='clr_primary ff_space fw-light fs_sm '>NFT</p>
 
                     </div></Col>
-                    <Col lg={3} md={6} data-aos="flip-down"><div className='project_boxes flex-column d-flex'>
+                    <Col lg={3} md={6} data-aos="flip-down"><div className='project_boxes flex-column d-flex mt-3 mt-lg-0'>
                         <img src={project4} alt="" />
                         <div className="d-flex justify-content-between align-items-center pt-2 ">
 

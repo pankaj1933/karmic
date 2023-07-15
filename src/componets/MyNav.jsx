@@ -32,10 +32,7 @@ const MyNav = () => {
             <Container>
                 <div className='d-flex justify-content-between py-4 align-items-center' >
                     <img src={navlogo} alt="nav" />
-                    {/* <input type="checkbox" id="menubox" /> */}
-                    
-
-
+                    <input type="checkbox" id="menubox" />
                     <h3 className='position-relative z-3 d-lg-none' onClick={first ? shownav : hidenav}>  {first ? <RxHamburgerMenu/> : <RxCross1 />}  </h3>
                     <ul className={first ? 'd-flex gap-5 nav_bar pt-2' : "d-flex gap-5 nav_bar pt-2 show"} >
                         <li className='pt-2'><Link className='nav_li fs_sm clr_primary fw-bold ff_sunflower' >Home</Link></li>
